@@ -38,5 +38,4 @@ int main( )
 	cout << 'B' << ' ' << fixed << setprecision( 2 ) << z[1] << endl;
 	cout << 'C' << ' ' << fixed << setprecision( 2 ) << z[2] << endl;
 	return 0;
-    
 }
