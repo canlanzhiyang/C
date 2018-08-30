@@ -13,6 +13,7 @@ p = Decimal( 1 )
 PIO = 0 # 预设PI上次值
 PI = 3 # 预设PI本次值
 n = 0 # 计算循环次数
+
 while PIO != PI: # 两次计算结果相等时,不再进行重复计算
     PIO = PI
     aa = a # aa为上一次a值
