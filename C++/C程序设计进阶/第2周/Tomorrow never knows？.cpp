@@ -9,7 +9,7 @@ int main( )
 	int y , m , d;
 	bool ly;
 	cin >> y >> c >> m >> c >> d;
-	if ( ( y % 4 == 0 ) && ( y % 400 != 0 ) )
+	if ( (( y % 4 == 0 ) && ( y % 100!=0))|| ( y % 400 == 0 ) )
 	{
 		switch ( m )
 		{
