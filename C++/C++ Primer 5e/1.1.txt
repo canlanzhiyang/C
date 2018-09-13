@@ -1,4 +1,4 @@
-return value
+返回值
 
 cmd:
 echo %ERRORLEVEL%
