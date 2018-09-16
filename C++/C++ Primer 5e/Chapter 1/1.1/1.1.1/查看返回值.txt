@@ -1,4 +1,4 @@
-返回值
+查看返回值
 
 cmd:
 echo %ERRORLEVEL%
