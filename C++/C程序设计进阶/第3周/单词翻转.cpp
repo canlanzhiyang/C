@@ -1,11 +1,11 @@
 #include <iostream>
 using namespace std;
 
-char x[501] = { 0 };
+char x[501];
 
-int shuchu(int y)
+int shuchu( int y )
 {
-	if (x[y]!='\0' )
+	if ( x[y] != '\0' )
 	{
 		shuchu( y + 1 );
 		cout << x[y];
@@ -16,6 +16,6 @@ int shuchu(int y)
 int main( )
 {
 	cin.getline( x , 500 );
-	shuchu(0);
+	shuchu( 0 );
 	return 0;
 }
