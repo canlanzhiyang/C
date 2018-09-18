@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-char x[501];
+char x[51];
 
 int shuchu( int y )
 {
@@ -15,7 +15,7 @@ int shuchu( int y )
 
 int main( )
 {
-	cin.getline( x , 500 );
+	cin.getline( x , 50 );
 	shuchu( 0 );
 	return 0;
 }
